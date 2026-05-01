@@ -19,6 +19,11 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Finance Friend - Privacy Policy & Features">
     <meta name="twitter:description" content="Smart Money Manager for Android. Track, budget, and grow your wealth.">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a7a4e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="Assets/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1125,8 +1130,8 @@
             <p>Track expenses, manage budgets, set savings goals, and achieve financial freedom with smart AI-powered
                 insights. Take control of your money today.</p>
             <div class="hero-buttons">
-                <a href="https://play.google.com/store/apps/details?id=com.vinkal.financefriend"
-                    class="btn btn-primary">
+                <a href="https://play.google.com/store/apps/details?id=com.financefriend.app"
+                    class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round">
                         <polygon points="5 3 19 12 5 21 5 3"></polygon>
@@ -1291,98 +1296,82 @@
             <div class="section-header reveal">
                 <span class="section-tag">Legal</span>
                 <h2>Privacy Policy</h2>
-                <p>Your privacy matters to us. This policy explains how Finance Friend handles your data.</p>
+                <p>Your privacy matters to us. Read the full policy or <a href="privacy.html">view the dedicated Privacy Policy page</a>.</p>
             </div>
             <div class="policy-content reveal">
-                <span class="last-updated">Last Updated: February 13, 2026</span>
+                <span class="last-updated">Last Updated: May 1, 2026</span>
                 <h3>1. Introduction</h3>
                 <p>Finance Friend ("we", "our", or "us") is a personal finance management application developed by
-                    Vinkal. We are committed to protecting your privacy and ensuring the security of your personal
-                    information. This Privacy Policy explains how we collect, use, store, and protect information when
-                    you use our mobile application ("App").</p>
+                    Vinkal. We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect information when you use our mobile application ("App"), available under package name <strong>com.vinkal.financefriend</strong>.</p>
                 <h3>2. Information We Collect</h3>
-                <p>Finance Friend is designed with a <strong>privacy-first approach</strong>. We collect and store the
-                    following types of information:</p>
+                <p>Finance Friend is designed with a <strong>privacy-first, offline-first approach</strong>.</p>
+                <p><strong>A) Data Stored Locally on Your Device:</strong></p>
                 <ul>
                     <li><strong>Financial Data:</strong> Transaction records (income, expenses), budget settings,
                         savings goals, bill reminders, subscription details, EMI calculations, net worth entries, and
-                        other financial data you manually enter into the App.</li>
+                        other financial data you manually enter.</li>
                     <li><strong>Preferences:</strong> App settings, theme preferences, dashboard customization,
                         notification preferences, and currency settings.</li>
                     <li><strong>Security Data:</strong> Your app lock PIN (stored locally in encrypted form).</li>
                 </ul>
-                <h3>3. How Your Data is Stored</h3>
-                <p>All your personal and financial data is stored <strong>locally on your device</strong>. Finance
-                    Friend does NOT use any cloud servers, external databases, or third-party analytics. Your data never
-                    leaves your device unless you explicitly choose to export it.</p>
+                <p>All the above data is stored <strong>entirely on your device</strong>. No user accounts or login credentials are required. We do not operate any cloud servers or databases.</p>
+                <p><strong>B) Data Collected by Third-Party Services (Google AdMob):</strong></p>
+                <p>Finance Friend uses <strong>Google AdMob</strong> to display advertisements. When ads are displayed, Google AdMob may automatically collect:</p>
                 <ul>
-                    <li>All financial records are stored in your device's local storage (browser localStorage / app
-                        storage).</li>
-                    <li>No data is transmitted to our servers or any third-party servers.</li>
-                    <li>No user accounts or login credentials are required.</li>
-                    <li>We do not collect, track, or transmit any personally identifiable information (PII).</li>
+                    <li><strong>Device Identifiers:</strong> Advertising ID (Google Advertising ID / AAID)</li>
+                    <li><strong>IP Address:</strong> Your device's Internet Protocol address</li>
+                    <li><strong>Device Information:</strong> Device model, OS version, screen size, language settings</li>
+                    <li><strong>App Interaction Data:</strong> Ad impressions, clicks, and engagement data</li>
                 </ul>
-                <h3>4. Data We Do NOT Collect</h3>
-                <p>We want to be transparent about what we <strong>do not</strong> do:</p>
+                <p><em>This data collection is performed by <strong>Google</strong>, not by Finance Friend directly. We do not have access to or store any of this data. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</em></p>
+                <h3>3. Advertisements & Google AdMob</h3>
+                <p>Finance Friend is a <strong>free, ad-supported</strong> application. We use Google AdMob to display banner, interstitial, and rewarded ads.</p>
                 <ul>
-                    <li>We do <strong>NOT</strong> collect your name, email, phone number, or any personal
-                        identification.</li>
-                    <li>We do <strong>NOT</strong> access your device contacts, camera, microphone, or location.</li>
-                    <li>We do <strong>NOT</strong> collect device identifiers, IP addresses, or browser fingerprints.
-                    </li>
-                    <li>We do <strong>NOT</strong> use any analytics tools (Google Analytics, Firebase Analytics, etc.).
-                    </li>
-                    <li>We do <strong>NOT</strong> display any advertisements.</li>
-                    <li>We do <strong>NOT</strong> sell, rent, or share any data with third parties.</li>
+                    <li><strong>Personalized Ads:</strong> Google may use your Advertising ID and browsing history to show relevant ads.</li>
+                    <li><strong>Non-Personalized Ads:</strong> If you opt out of ad personalization, you will still see ads but they won't be based on your personal data.</li>
+                    <li><strong>Internet Requirement:</strong> While core App features work offline, an internet connection is needed for loading ads.</li>
+                </ul>
+                <h3>4. Third-Party Services</h3>
+                <p>Finance Friend integrates the following third-party service:</p>
+                <ul>
+                    <li><strong>Google AdMob</strong> (by Google LLC) — for displaying advertisements. Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a></li>
+                    <li><strong>Google Play Services</strong> (by Google LLC) — for app distribution & updates.</li>
+                </ul>
+                <p>We do not use any analytics tools (Google Analytics, Firebase Analytics, etc.) to track usage behavior.</p>
+                <h3>5. Data We Do NOT Collect</h3>
+                <ul>
+                    <li>We do <strong>NOT</strong> collect your name, email, phone number, or personal identification through the App.</li>
+                    <li>We do <strong>NOT</strong> access your contacts, camera, microphone, or GPS location.</li>
+                    <li>We do <strong>NOT</strong> sell, rent, or share your locally stored data with third parties.</li>
                     <li>We do <strong>NOT</strong> track your usage behavior or create user profiles.</li>
                 </ul>
-                <h3>5. Data Export & Backup</h3>
-                <p>Finance Friend allows you to export your financial data as reports. When you chose to export data:
-                </p>
+                <h3>6. Data Export & Backup</h3>
+                <p>Finance Friend allows you to export your financial data. Exported files are saved directly to your device. No data is uploaded to any server during export.</p>
+                <h3>7. Local Notifications</h3>
+                <p>Notifications for bill reminders and budget alerts are generated entirely on your device without any server communication.</p>
+                <h3>8. Your Rights & Choices</h3>
                 <ul>
-                    <li>The exported file is saved directly to your device's download folder.</li>
-                    <li>No data is uploaded to any server during the export process.</li>
-                    <li>You are solely responsible for the security of exported files.</li>
+                    <li><strong>Delete Data:</strong> Use "Clear All Data" in Settings, clear App data via device settings, or uninstall the App.</li>
+                    <li><strong>Reset Advertising ID:</strong> Settings → Google → Ads → Reset Advertising ID.</li>
+                    <li><strong>Opt-Out of Personalized Ads:</strong> Settings → Google → Ads → Opt out of Ads Personalization.</li>
                 </ul>
-                <h3>6. Local Notifications</h3>
-                <p>Finance Friend may send local notifications for bill reminders, budget alerts, and monthly reports.
-                    These notifications are generated entirely on your device and do not involve any server
-                    communication or push notification services.</p>
-                <h3>7. Third-Party Services</h3>
-                <p>Finance Friend does <strong>NOT</strong> integrate with any third-party services that collect user
-                    data. The App operates entirely offline and does not require an internet connection for any core
-                    functionality.</p>
-                <h3>8. Children's Privacy</h3>
-                <p>Finance Friend is suitable for users of all ages. Since we do not collect any personal information,
-                    there are no special risks for children using the App. However, we recommend parental guidance for
-                    minors managing finances.</p>
-                <h3>9. Data Deletion</h3>
-                <p>Since all data is stored locally on your device, you can delete your data at any time by:</p>
-                <ul>
-                    <li>Using the "Clear All Data" option in the App Settings.</li>
-                    <li>Clearing the App's data from your device's system settings.</li>
-                    <li>Uninstalling the App (this permanently deletes all associated data).</li>
-                </ul>
+                <h3>9. Children's Privacy</h3>
+                <p>Finance Friend is not directed at children under 13. We do not knowingly collect personal information from children. Ads displayed are configured for general audiences.</p>
                 <h3>10. Security</h3>
-                <p>We take reasonable measures to protect your information:</p>
                 <ul>
-                    <li>Optional PIN lock to prevent unauthorized access to the App.</li>
-                    <li>All data stays on your device with no external transmission.</li>
+                    <li>Optional PIN lock to prevent unauthorized access.</li>
+                    <li>All personal financial data stays on your device.</li>
                     <li>No cloud storage means no risk of server-side data breaches.</li>
                 </ul>
                 <h3>11. Changes to This Policy</h3>
-                <p>We may update this Privacy Policy from time to time. Any changes will be posted within the App and on
-                    this page. The "Last Updated" date at the top indicates when the policy was last revised. Continued
-                    use of the App after changes constitutes acceptance of the updated policy.</p>
+                <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the App constitutes acceptance.</p>
                 <h3>12. Contact Us</h3>
-                <p>If you have any questions, concerns, or feedback regarding this Privacy Policy or the App, please
-                    contact us:</p>
                 <ul>
                     <li><strong>Developer:</strong> Vinkal</li>
-                    <li><strong>Email:</strong> <a href="mailto:vinkal93041@gmail.com">vinkal93041@gmail.com</a>
-                    </li>
-                    <li><strong>App Package:</strong> com.vinkal.financefriend</li>
+                    <li><strong>Email:</strong> <a href="mailto:vinkal93041@gmail.com">vinkal93041@gmail.com</a></li>
+                    <li><strong>Package:</strong> com.vinkal.financefriend</li>
                 </ul>
+                <p style="margin-top:20px;"><a href="privacy.html" style="font-weight:600;">📄 View Full Privacy Policy →</a></p>
             </div>
         </div>
     </section>
@@ -1396,14 +1385,13 @@
                 <p>Please read these terms carefully before using Finance Friend.</p>
             </div>
             <div class="policy-content reveal">
-                <span class="last-updated">Last Updated: February 13, 2026</span>
+                <span class="last-updated">Last Updated: May 1, 2026</span>
                 <h3>1. Acceptance of Terms</h3>
                 <p>By downloading, installing, or using Finance Friend ("the App"), you agree to be bound by these Terms
                     of Service. If you do not agree to these terms, please do not use the App.</p>
                 <h3>2. Description of Service</h3>
-                <p>Finance Friend is a personal finance management application that helps users track expenses, manage
-                    budgets, set savings goals, and gain insights into their financial habits. The App is provided free
-                    of charge.</p>
+                <p>Finance Friend is a <strong>free, ad-supported</strong> personal finance management application that helps users track expenses, manage
+                    budgets, set savings goals, and gain insights into their financial habits. The App is supported by advertisements served through Google AdMob.</p>
                 <h3>3. User Responsibilities</h3>
                 <ul>
                     <li>You are responsible for the accuracy of the financial data you enter into the App.</li>
@@ -1428,19 +1416,21 @@
                 <p>All content, design, code, graphics, and trademarks in Finance Friend are the intellectual property
                     of Vinkal. You may not copy, modify, distribute, or reverse-engineer any part of the App without
                     prior written consent.</p>
-                <h3>8. Updates & Changes</h3>
+                <h3>8. Advertisements</h3>
+                <p>Finance Friend displays advertisements through Google AdMob. By using the App, you acknowledge that ads will be displayed, an internet connection may be required for loading ads, and ad content is provided by third-party advertisers. We are not responsible for products or services offered through advertisements.</p>
+                <h3>9. Updates & Changes</h3>
                 <p>We reserve the right to update, modify, or discontinue any features of the App at any time. We may
                     also update these Terms of Service, and continued use after changes constitutes acceptance.</p>
-                <h3>9. Governing Law</h3>
+                <h3>10. Governing Law</h3>
                 <p>These Terms of Service shall be governed by and construed in accordance with the laws of India. Any
                     disputes arising from these terms shall be resolved in the courts of India.</p>
-                <h3>10. Contact</h3>
+                <h3>11. Contact</h3>
                 <p>For any questions about these Terms of Service, please contact:</p>
                 <ul>
                     <li><strong>Developer:</strong> Vinkal</li>
-                    <li><strong>Email:</strong> <a href="mailto:vinkal93041@gmail.com">vinkal93041@gmail.com</a>
-                    </li>
+                    <li><strong>Email:</strong> <a href="mailto:vinkal93041@gmail.com">vinkal93041@gmail.com</a></li>
                 </ul>
+                <p style="margin-top:20px;"><a href="terms.html" style="font-weight:600;">📄 View Full Terms of Service →</a></p>
             </div>
         </div>
     </section>
@@ -1452,8 +1442,8 @@
                 <h2>Ready to Take Control of<br>Your <span class="gradient-text">Finances</span>?</h2>
                 <p>Download Finance Friend today and start your journey to financial freedom. It's free, private, and
                     powerful.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.vinkal.financefriend"
-                    class="btn btn-primary">
+                <a href="https://play.google.com/store/apps/details?id=com.financefriend.app"
+                    class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round">
                         <polygon points="5 3 19 12 5 21 5 3"></polygon>
@@ -1469,8 +1459,8 @@
         <div class="container footer-inner">
             <p class="footer-text">© 2026 Finance Friend by Vinkal. All rights reserved.</p>
             <ul class="footer-links">
-                <li><a href="#privacy">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="mailto:vinkal93041@gmail.com">Contact</a></li>
             </ul>
@@ -1602,6 +1592,39 @@
         // --- Close sidebar on ESC key ---
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeSidebar();
+        });
+
+        // --- PWA Service Worker Registration ---
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('SW registered:', reg.scope))
+                    .catch(err => console.log('SW registration failed:', err));
+            });
+        }
+
+        // --- PWA Install Prompt ---
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            // Show install banner after 3 seconds
+            setTimeout(() => {
+                if (deferredPrompt) {
+                    const banner = document.createElement('div');
+                    banner.id = 'pwa-banner';
+                    banner.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--bg-card);border:1px solid var(--border-color);border-radius:16px;padding:16px 24px;display:flex;align-items:center;gap:16px;box-shadow:0 8px 32px rgba(0,0,0,0.15);z-index:9999;max-width:420px;width:90%;';
+                    banner.innerHTML = '<div style="flex:1"><strong style="font-size:0.95rem">Install Finance Friend</strong><p style="font-size:0.8rem;color:var(--text-secondary);margin-top:4px">Add to home screen for quick access</p></div><button id="pwa-install" style="padding:10px 20px;background:var(--gradient-primary);color:#fff;border:none;border-radius:50px;font-weight:600;font-size:0.85rem;cursor:pointer;font-family:inherit">Install</button><button id="pwa-close" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1.2rem;padding:4px">✕</button>';
+                    document.body.appendChild(banner);
+                    document.getElementById('pwa-install').addEventListener('click', async () => {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        deferredPrompt = null;
+                        banner.remove();
+                    });
+                    document.getElementById('pwa-close').addEventListener('click', () => banner.remove());
+                }
+            }, 3000);
         });
     </script>
 </body>
